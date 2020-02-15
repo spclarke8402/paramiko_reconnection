@@ -7,7 +7,7 @@ This python script uses Paramiko to ssh to a host or list of host(s) in a file a
 
 <b>:: Usage ::</b>
 <pre><code>
-usage: reboot.py [-h] [-H HOST]
+usage: reconnect.py [-h] [-H HOST]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -17,7 +17,7 @@ optional arguments:
 
 <b>:: Expect Output ::</b><br>
 <pre><code>
- ./reboot.py -H example.hostname.com
+ ./reconnect.py -H example.hostname.com
 example.hostname.com
 Touch YubiKey if flashing...
 Touch YubiKey:
