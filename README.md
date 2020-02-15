@@ -5,18 +5,18 @@ This python script uses Paramiko to ssh to a host or list of host(s) in a file a
 
 <b><i>Script times out after 5 mins if a connection can't be made.</i></b>
 
-<b>:: Usage ::</b><br>
-<code>
+<b>:: Usage ::</b>
+<pre><code>
 usage: reboot.py [-h] [-H HOST]
 
 optional arguments:
   -h, --help            show this help message and exit
   -H HOST, --host HOST  Specify hostname
-</code>
+</code></pre>
 
 
 <b>:: Expect Output ::</b><br>
-<code>
+<pre><code>
  ./reboot.py -H example.hostname.com
 example.hostname.com
 Touch YubiKey if flashing...
@@ -32,5 +32,5 @@ retrying connection...
 [Errno 110] Connection timed out
 retrying connection...
 This will be bootstrap command
-</code>
+</code></pre>
 
