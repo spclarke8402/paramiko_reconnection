@@ -1,5 +1,5 @@
 # paramiko_reconnection
-Paramiko reboot host, keep re-trying connection to host to run bootstrap.
+Paramiko reboot host or host(s), keep re-trying connection to host or host(s) to run bootstrap.
 
 This python script uses Paramiko to ssh to a host or list of host(s) in a file and run reboot command followed by reconnection function in order to re-gain connection after reboot to run bootstrap command with yubikey prompt.
 
