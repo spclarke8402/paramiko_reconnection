@@ -3,6 +3,8 @@ Paramiko reboot host or host(s), keep re-trying connection to host or host(s) to
 
 This python script uses Paramiko to ssh to a host or list of host(s) in a file and run reboot command followed by reconnection function in order to re-gain connection after reboot to run bootstrap command with yubikey prompt.
 
+<b>For multiple host(s) add them to hosts.txt in same directory as script. 1 host per line.</b>
+
 <b><i>Script times out after 5 mins if a connection can't be made.</i></b>
 
 <b>:: Usage ::</b>
