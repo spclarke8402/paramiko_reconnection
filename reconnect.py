@@ -13,11 +13,13 @@ PARSER.add_argument("-H", "--host",
 
 ARGS = PARSER.parse_args()
 
-user = os.getlogin()
+
 
 def main():
 
     hosts_arg = ARGS.host
+
+    user = os.getlogin()
 
     if hosts_arg is not None:
         hosts = hosts_arg.split(',')
