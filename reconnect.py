@@ -45,7 +45,7 @@ def reboot(hosts, user):
             s = ssh.get_transport().open_session()
             paramiko.agent.AgentRequestHandler(s)
 
-            print("Touch YubiKey if flashing...")
+            print("Test Message")
 
             sh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command("sudo /sbin/reboot -h now", get_pty=True)
             stdout = ssh_stdout.readlines()
